@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       home: MyHomePage(
-          args: {'title': 'Recipe card', 'message': 'funny message'}),
+          args: {'title': 'Eng. Mostafa Fat7y', 'message': 'funny message'}),
     );
   }
 }
