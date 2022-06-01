@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'body.dart';
+import 'body_2.dart';
+import 'body_3.dart';
 
 class MyHomePage extends StatelessWidget {
   MyHomePage({Key? key, required this.args}) : super(key: key);
@@ -13,7 +15,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Body(),
+      body: Body3(),
     );
   }
 }

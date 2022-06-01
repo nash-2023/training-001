@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Body extends StatelessWidget {
-  Body({Key? key}) : super(key: key);
+class Body2 extends StatelessWidget {
+  Body2({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -66,57 +66,69 @@ class Body extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceAround,
               children: [
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
-                    Row(
-                      children: [
-                        Icon(
-                          Icons.star,
-                          size: 20.0,
-                          color: Colors.yellow,
-                          shadows: [
-                            Shadow(color: Colors.black, blurRadius: 1.5),
+                    Expanded(
+                      child: Container(
+                        color: Colors.red,
+                        alignment: Alignment.centerLeft,
+                        child: Row(
+                          children: [
+                            Icon(
+                              Icons.star,
+                              size: 20.0,
+                              color: Colors.yellow,
+                              shadows: [
+                                Shadow(color: Colors.black, blurRadius: 1.5),
+                              ],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 20.0,
+                              color: Colors.yellow,
+                              shadows: [
+                                Shadow(color: Colors.black, blurRadius: 1.5),
+                              ],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 20.0,
+                              color: Colors.yellow,
+                              shadows: [
+                                Shadow(color: Colors.black, blurRadius: 1.5),
+                              ],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 20.0,
+                              color: Colors.white,
+                              shadows: [
+                                Shadow(color: Colors.black, blurRadius: 1.5),
+                              ],
+                            ),
+                            Icon(
+                              Icons.star,
+                              size: 20.0,
+                              color: Colors.white,
+                              shadows: [
+                                Shadow(color: Colors.black, blurRadius: 1.5),
+                              ],
+                            ),
                           ],
                         ),
-                        Icon(
-                          Icons.star,
-                          size: 20.0,
-                          color: Colors.yellow,
-                          shadows: [
-                            Shadow(color: Colors.black, blurRadius: 1.5),
-                          ],
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 20.0,
-                          color: Colors.yellow,
-                          shadows: [
-                            Shadow(color: Colors.black, blurRadius: 1.5),
-                          ],
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 20.0,
-                          color: Colors.white,
-                          shadows: [
-                            Shadow(color: Colors.black, blurRadius: 1.5),
-                          ],
-                        ),
-                        Icon(
-                          Icons.star,
-                          size: 20.0,
-                          color: Colors.white,
-                          shadows: [
-                            Shadow(color: Colors.black, blurRadius: 1.5),
-                          ],
-                        ),
-                      ],
+                      ),
                     ),
-                    Text(
-                      "17 reviews",
-                      style: TextStyle(
-                        fontSize: 18.0,
-                        fontWeight: FontWeight.w600,
+                    Expanded(
+                      child: Container(
+                        color: Colors.red,
+                        alignment: Alignment.centerRight,
+                        child: Text(
+                          "17 reviews",
+                          style: TextStyle(
+                            fontSize: 18.0,
+                            fontWeight: FontWeight.w600,
+                          ),
+                        ),
                       ),
                     ),
                   ],
@@ -126,7 +138,7 @@ class Body extends StatelessWidget {
                     top: 20.0,
                   ),
                   child: Row(
-                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Column(
                         children: [
