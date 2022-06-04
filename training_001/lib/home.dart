@@ -15,7 +15,7 @@ class MyHomePage extends StatelessWidget {
       appBar: AppBar(
         title: Text(title),
       ),
-      body: Body3(),
+      body: Body(),
     );
   }
 }

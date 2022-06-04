@@ -44,9 +44,14 @@ class Body extends StatelessWidget {
             child: Text(
               " Giza Power Co. lorem episode lore lorem lorem episode lore lorem lorem episode lore lorem lorem episode lore lorem lorem episode lore llorem lorem",
               style: TextStyle(
-                fontSize: 18.0,
+                fontSize: 20.0,
                 color: Colors.black54,
-                height: 1.5,
+                height: 1.9,
+                // fontFamily: "Arial",
+                fontFamily: "calibri",
+                // fontFamily: "Times New Roman",
+                fontWeight: FontWeight.w700,
+                wordSpacing: 1.5,
               ),
               textAlign: TextAlign.center,
             ),
